@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-attachment: fixed;
+  background-position:center;
+
+}
+.nc {
+  width: 100%;
+}
+.nc a {
+  padding: 5px 20px;
+  margin-left: 30px;
+}
+.nc a:hover {
+  font-size: larger;
+}
+.main1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  height: 100vh;
+  position: fixed;
+}
+.Element
+{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  
+}
+.content {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+  color: #fff;
+}
+.heading1 {
+  padding: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+.para {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.btn1 {
+  background-color: rgb(204, 27, 98);
+  text-transform: capitalize;
+  color: #fff;
+  padding: 5px;
+  margin: 20px;
+  
+}
+.btn2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 5px;
+  margin: 20px;
+}
+.btn1:hover{
+    color: rgb(147, 190, 190);
+    
+}
+.btn2:hover{
+    color: aqua;
+}
+/* form styling */
+.form_element
+{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.webform
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.webform input
+{
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0,0.6);
+  color: #fff;
+}
+.btn3
+{
+  background-color: rgb(15, 230, 43);
+  color: #fff;
+  text-align: center;
+}
