@@ -27,7 +27,7 @@ app.get("/services",(req,res)=>{
 });
 app.get('/heiring',(req,res)=>{
     res.render("header");
-
+  console.log("prateek");
 });
 
 
